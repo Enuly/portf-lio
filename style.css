@@ -16,12 +16,13 @@
     z-index: -4;
 }
 
+html {
+scroll-behavior: smooth;
+}
+
 .pixel {
     position: absolute;
     width: 5px; /* Tamanho dos pixels */
-    height: 5px;
-    background-color: rgba(255, 255, 255, 0.8); /* Pixels brancos */
-    opacity: 0;
     animation: fall linear;
     animation-duration: var(--duration);
 }
